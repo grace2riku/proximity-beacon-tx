@@ -11,7 +11,7 @@ if (input.buttonIsPressed(Button.A)) {
     radio_strength = 1
     led_brightness = 64
 } else {
-    radio_strength = 7
+    radio_strength = 1
     led_brightness = 255
 }
 led.setBrightness(led_brightness)
